@@ -135,7 +135,10 @@
   <a href="docs/current/tutorial.html" class="btn btn-large tutorial-link">Tutorial</a>
   <a href="docs/current/index.html" class="btn btn-large docs-link">Documentation</a>
   <a href="docs/current/faq.html" class="btn btn-large faq-link">FAQ</a>
-  <a href="https://rootnroll.com/d/fish-shell/" class="btn btn-large playground-link">Try in Browser</a>
+  <a href="blog/index.html" class="btn btn-large blog-link">Blog</a>
+  <!-- Commented out until/unless rootnroll updates to 3.2 -->
+  <!-- <a href="https://rootnroll.com/d/fish-shell/" class="btn btn-large playground-link">Try in Browser</a> -->
+
 
   <hr>
 
@@ -151,7 +154,6 @@
 
   <div class="tab-content download_tabs over-pos">
     <div class="download_tab block_links tab-pane active" id="get_fish_osx">
-      <h3 style="font-size: larger"><a href="apple-silicon.html">Apple Silicon update</a></h3>
       <div>
         <h4>
           <a class="tab_link" href="https://brew.sh">Homebrew</a>
@@ -183,6 +185,7 @@
           <span class="mono">sudo port install fish</span>
         </p>
       </div>
+      <br />
 
       <div>
         <h4>
@@ -197,27 +200,26 @@
 
         <p>
           <small>
-            10.9+, universal<br />Installs to <span class="mono">/usr/local/</span>
+            10.9+, Intel or Apple silicon<br />
+            Installs to <span class="mono">/usr/local/</span>
           </small>
         </p>
       </div>
 
-      <div class="over-pos">
+      <div class="">
         <h4>
           <a class="tab_link" href="https://github.com/fish-shell/fish-shell/releases/download/3.1.2/fish-3.1.2.app.zip">App</a>
         </h4>
 
-        <br>
-
         <p>
           <a class="tab_link" href="https://github.com/fish-shell/fish-shell/releases/download/3.1.2/fish-3.1.2.app.zip">
-            <img src="assets/img/Terminal_Logo_LCD_Small.png" alt="Terminal logo" class="app-download">
+            <img src="assets/img/Terminal_Logo_LCD_Small.png" alt="Terminal logo">
           </a>
         </p>
 
         <p>
           <small>
-            10.9+, universal
+            10.9+, Intel or Apple silicon
             <br>
             <a href="#" onclick="document.getElementById('app_explanation').style.display = 'block'; return false;">
               No installation required
@@ -567,7 +569,7 @@
   <h3>Release History</h3>
 
   <p>
-    <a href="release_notes.html" class="release-notes-title"><b>Release Notes</b></a>
+    <a href="docs/current/relnotes.html" class="release-notes-title"><b>Release Notes</b></a>
   </p>
 
   <ul class="releases-list">
